@@ -53,6 +53,16 @@ public class DisponibilidadService {
         log.info("Usuario eliminado con id: {}", id);
     }
 
+    @Transactional(readOnly = true)
+    public DisponibilidadModel findById(Long id) {
+        return disponibilidadMapper.toModel(findEntity(id));
+    }
+
+    @Transactional(readOnly = true)
+    public List<DisponibilidadModel> findAll() {
+        return disponibilidadRepository.findAll().stream().map(disponibilidadMapper::toModel).toList();
+    }
+
     private DisponibilidadEntity findEntity(Long id) {
         return disponibilidadRepository.findById(id)
                 .orElseThrow(() -> {
