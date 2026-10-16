@@ -1,4 +1,4 @@
-package edu.dosw.parcial;
+package edu.eci.dosw.parcial;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
