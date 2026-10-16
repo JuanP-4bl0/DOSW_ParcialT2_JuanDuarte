@@ -13,7 +13,6 @@ public interface DisponibilidadMapper {
 
     DisponibilidadModel toModel(DisponibilidadEntity entity);
 
-    @Mapping(target = "solicitud", ignore = true)
     DisponibilidadEntity toEntity(DisponibilidadModel model);
 
     List<DisponibilidadModel> toModelList(List<DisponibilidadEntity> entities);

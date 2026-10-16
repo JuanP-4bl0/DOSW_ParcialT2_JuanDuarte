@@ -19,11 +19,6 @@ import lombok.Setter;
 
 @Entity
 @Table(name = "solicitudes")
-@Getter
-@Setter
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class SolicitudEntity {
 
     @Id

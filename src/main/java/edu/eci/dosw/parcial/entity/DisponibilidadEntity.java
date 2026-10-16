@@ -22,11 +22,6 @@ import lombok.Setter;
 
 @Entity
 @Table(name = "disponibilidades")
-@Getter
-@Setter
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class DisponibilidadEntity {
 
     @Id
