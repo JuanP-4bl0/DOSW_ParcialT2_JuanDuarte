@@ -6,6 +6,6 @@ Parcial 2 DOSW
 - Juan Pablo Duarte Silva
 
 ## Diagramas
-[Diagrama er](src/main/resources/docs/uml/diagrama_er.png)
+![Diagrama er](src/main/resources/docs/uml/diagrama_er.png)
 
-[Diagrama de clases](src/main/resources/docs/uml/diagrama_clases.png)
+![Diagrama de clases](src/main/resources/docs/uml/diagrama_clases.png)
